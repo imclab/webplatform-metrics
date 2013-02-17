@@ -2,21 +2,45 @@
 <html>
   <head>
     <title>Web Platform Feature Metrics</title>
-    <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
+    <link href="http://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
     <style>
-      #container {
-        width: 900px;
-        margin: auto;
-        text-align: center;
+      h1 {
+        font: 40px Cardo, serif;
       }
-      h1 { font-family: 'Cardo', serif; }
-      p, a { font-family: sans-serif; font-size: 14px; }
-      header { padding-top: 10px; }
+
+      a {
+        color: #0088cc;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:focus {
+        color: #005580;
+        text-decoration: underline;
+      }
+
+      p,
+      a {
+        font-family: sans-serif;
+        font-size: 15px;
+      }
+
+      header {
+        padding-top: 10px;
+      }
+
       li {
         margin-right: 5px;
         float: left;
         list-style: none;
       }
+
+      #container {
+        width: 900px;
+        margin: auto;
+        text-align: center;
+      }
+
       #more {
         font-style: italic;
       }
@@ -30,26 +54,23 @@
       </header>
       <article>
         <figure id="tags">
-          <script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/chromium.org/spreadsheet/tq?key=0AjGgk26K1Cc-dEhmQzlzRVVTUmRYQkZNdVVZSlhBUnc&transpose=1&headers=1&range=A1%3AH10&gid=1&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"curveType":"","fontName":"Arial","animation":{"duration":500},"width":800,"lineWidth":2,"hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"vAxes":[{"title":null,"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"booleanRole":"certainty","title":"Element Tag Names","height":600,"legend":"right","tooltip":{}},"state":{},"view":{},"chartType":"LineChart","chartName":"Chart 2"} </script>
+          <script src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js">
+            {"dataSourceUrl":"//docs.google.com/a/chromium.org/spreadsheet/tq?key=0AjGgk26K1Cc-dEhmQzlzRVVTUmRYQkZNdVVZSlhBUnc&transpose=1&headers=1&range=A1%3AH10&gid=1&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"curveType":"","fontName":"Arial","animation":{"duration":500},"width":800,"lineWidth":2,"hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"vAxes":[{"title":null,"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"booleanRole":"certainty","title":"Element Tag Names","height":600,"legend":"right","tooltip":{}},"state":{},"view":{},"chartType":"LineChart","chartName":"Chart 2"}
+          </script>
         </figure>
-        <p><a href="https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AjGgk26K1Cc-dEhmQzlzRVVTUmRYQkZNdVVZSlhBUnc#gid=1">Raw Data</a> | <a href="https://plus.google.com/102860501900098846931/posts/Rh1aMkzucgV">Comment on G+</a> </p>
-
+        <p><a href="https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AjGgk26K1Cc-dEhmQzlzRVVTUmRYQkZNdVVZSlhBUnc#gid=1">Raw Data</a> | <a href="https://plus.google.com/102860501900098846931/posts/Rh1aMkzucgV">Comment on G+</a></p>
       </article>
       <footer>
-          <p id="more">More soon!
-        </p>
+        <p id="more">More soon!</p>
       </footer>
     </div>
+    <script>
+      var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-38261828-1']); _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </body>
-
-
-<script>
-  var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-38261828-1']); _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
 </html>
